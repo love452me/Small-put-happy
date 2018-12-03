@@ -27,13 +27,15 @@
     	<put-attribute name="body" value="/WEB-INF/jsp/login/{1}.jsp" />
     </definition>
  
- <!--  
-  (2)
-  	그 레이아웃을  name = "여기에 넣기" // put-attribute중에서 사용할 name넣기
-    <definition name="Bootstraplink" extends="base.definition">      
-      <put-attribute name="body" value="/WEB-INF/views/bootstraplink.jsp" />
-    </definition>
- -->
+ 
+	<!--   (2)
+  	그 레이아웃을  name = "여기에 넣기" // put-attribute중에서 사용할 name넣기 
+  	-->
+  	
+	<definition name="small" extends="base.definition">      
+      <put-attribute name="body" value="/WEB-INF/views/small.jsp" />
+    </definition> 
+
   <definition name="small" extends="base.definition">      
       <put-attribute name="body" value="/WEB-INF/views/small.jsp" />
     </definition>

@@ -8,6 +8,7 @@
 <title>Insert title here</title>
 </head>
 <body class="container">
+<%-- 	
 	<table class="table table-condensed">
 		<c:forEach var="small" items="${small}">
 		<tr align="center">
@@ -16,6 +17,7 @@
 				<td>${small.name}</td>
 		</tr>
 		</c:forEach>
-	</table>
+	</table> --%>
+	
 </body>
 </html>

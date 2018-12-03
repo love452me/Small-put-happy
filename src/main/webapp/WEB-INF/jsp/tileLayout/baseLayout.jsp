@@ -9,7 +9,7 @@
 <title>Insert title here</title>
  <%@ include file="/WEB-INF/include/include-header.jspf"%>
 </head>
-<body class="wrapper">
+<body>
 	
 	<nav class="navbar navbar-default navbar-static-top" role="navigation" style="margin-bottom: 0"> 
 		<tiles:insertAttribute name="header" />

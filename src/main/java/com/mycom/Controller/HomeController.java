@@ -46,7 +46,7 @@ public class HomeController {
 		//List<Small> small = smallservice.getSmallList();
 		//model.addAttribute("small", small);
 	
-	return "bootstraplink";
+	return "small";
 	}
 	
 }
