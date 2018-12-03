@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 2.0//EN" "http://tiles.apache.org/dtds/tiles-config_2_0.dtd">  
+  
+<tiles-definitions>    
+ 
+  <!-- 레이아웃을 적용하지 않을 화면(1) -->
+  	 <definition name=".login" template="/WEB-INF/jsp/tileLayout/loginLayout.jsp">
+        <put-attribute name="title" value="" />
+        <put-attribute name="header" value="/WEB-INF/jsp/tilesView/header.jsp" />
+        <put-attribute name="menu" value="" />        
+        <put-attribute name="footer" value="" />
+     </definition>
+  
+  <!-- 레이아웃을 적용할 화면(2) -->  
+	<definition name="base.definition" template="/WEB-INF/jsp/tileLayout/baseLayout.jsp">    
+    	<put-attribute name="title" value="" />  <!-- 타이틀 -->       
+    	<put-attribute name="header" value="/WEB-INF/jsp/tilesView/header.jsp" />  <!-- 헤더 -->  
+    	<put-attribute name="menu" value="/WEB-INF/jsp/tilesView/menu.jsp" />  <!-- 메뉴 -->     
+    	<put-attribute name="body" value="" /> <!-- 바디 -->       
+    	<put-attribute name="footer" value="/WEB-INF/jsp/tilesView/footer.jsp" />  <!-- 푸터/꼬릿말 --> 
+	</definition>       
+	
+  
+  
+  <!-- (1) -->    
+    <definition name="/login/*" extends=".login">
+    	<put-attribute name="body" value="/WEB-INF/jsp/login/{1}.jsp" />
+    </definition>
+  
+  <!-- (2) -->
+  	<!-- 그 레이아웃을  name = "여기에 넣기" // put-attribute중에서 사용할 name넣기 -->
+    <definition name="Bootstraplink" extends="base.definition">      
+      <put-attribute name="body" value="/WEB-INF/views/bootstraplink.jsp" />
+    </definition>
+
+  <definition name="small" extends="base.definition">      
+      <put-attribute name="body" value="/WEB-INF/views/small.jsp" />
+    </definition>
+
+
+</tiles-definitions>
+
+
+
+<!-- 
+	definition/template 속성이 기본적으로 특이 잡힐 레이아웃jsp 
+	put-attribute를 넣는 방식
+	
+	//
+	
+	extends 쪽 definition 을 살펴보면  name 에 매핑을 걸고 해당매핑일때 참조될 jsp의 주소를 가르킨다.
+	put-attribute의 경로에는 *(에스테리크) 를 {1} 에 넣어줄수있다.
+	
+	//
+	
+ 2번의 매핑은 말그대로 로그인을 제외한 모든루트에 매핑할때 가능한 구조
+  ex) /community/community 매핑이 들어올경우 /WEB-INF/jsp/community/community.jsp
+ 로 치환시킵니다 물론 body의 매핑과 파일명을 맞춰야한다.
+
+extends = 사용하고자 하는, 적용하고자 하는 "tileslayout"의 이름을 기입하는 것
+-->
