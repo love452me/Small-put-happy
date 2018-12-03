@@ -14,8 +14,8 @@
   <!-- 레이아웃을 적용할 화면(2) -->  
 	<definition name="base.definition" template="/WEB-INF/jsp/tileLayout/baseLayout.jsp">    
     	<put-attribute name="title" value="" />  <!-- 타이틀 -->       
-    	<put-attribute name="header" value="/WEB-INF/jsp/tilesView/header.jsp" />  <!-- 헤더 -->  
-    	<put-attribute name="menu" value="/WEB-INF/jsp/tilesView/menu.jsp" />  <!-- 메뉴 -->     
+    	<put-attribute name="header" value="/WEB-INF/jsp/tilesView/header.jsp" /><!-- 메뉴 -->      
+    	<put-attribute name="menu" value="/WEB-INF/jsp/tilesView/menu.jsp" /><!-- 헤더 -->    
     	<put-attribute name="body" value="" /> <!-- 바디 -->       
     	<put-attribute name="footer" value="/WEB-INF/jsp/tilesView/footer.jsp" />  <!-- 푸터/꼬릿말 --> 
 	</definition>       

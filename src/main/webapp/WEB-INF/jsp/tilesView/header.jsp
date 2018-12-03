@@ -25,55 +25,37 @@
           <li class="nav-item active  ">
             <a class="nav-link" href="./dashboard.html">
               <i class="material-icons"></i>
-              <p>Dashboard</p>
+              <p>사용자(이름/프로필)</p>
             </a>
           </li>
           <li class="nav-item ">
             <a class="nav-link" href="./user.html">
               <i class="material-icons"></i>
-              <p>User Profile</p>
+              <p>회원등급/회원 멤버쉽</p>
             </a>
           </li>
           <li class="nav-item ">
             <a class="nav-link" href="./tables.html">
               <i class="material-icons"></i>
-              <p>Table List</p>
+              <p>회원 이벤트(쿠폰)</p>
             </a>
           </li>
           <li class="nav-item ">
             <a class="nav-link" href="./typography.html">
               <i class="material-icons"></i>
-              <p>Typography</p>
+              <p>결재내역/ 장 바구니</p>
             </a>
           </li>
           <li class="nav-item ">
             <a class="nav-link" href="./icons.html">
               <i class="material-icons"></i>
-              <p>Icons</p>
+              <p>회원탈퇴</p>
             </a>
           </li>
           <li class="nav-item ">
             <a class="nav-link" href="./map.html">
               <i class="material-icons"></i>
-              <p>Maps</p>
-            </a>
-          </li>
-          <li class="nav-item ">
-            <a class="nav-link" href="./notifications.html">
-              <i class="material-icons"></i>
-              <p>Notifications</p>
-            </a>
-          </li>
-          <li class="nav-item ">
-            <a class="nav-link" href="./rtl.html">
-              <i class="material-icons"></i>
-              <p>RTL Support</p>
-            </a>
-          </li>
-          <li class="nav-item active-pro ">
-            <a class="nav-link" href="./upgrade.html">
-              <i class="material-icons"></i>
-              <p>Upgrade to PRO</p>
+              <p>회원수정</p>
             </a>
           </li>
         </ul>
