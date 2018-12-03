@@ -1,7 +1,5 @@
 package com.mycom.Controller;
 
-import java.util.List;
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -10,7 +8,6 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.servlet.ModelAndView;
 
 import com.mycom.Service.SmallService;
-import com.mycom.pojo.Small;
 
 /**
  * Handles requests for the application home page.
@@ -46,10 +43,10 @@ public class HomeController {
 	
 	@RequestMapping(value = "/",  method = RequestMethod.GET)
 	public String smallmethod(Model model, ModelAndView mv) {
-		List<Small> small = smallservice.getSmallList();
-		model.addAttribute("small", small);
+		//List<Small> small = smallservice.getSmallList();
+		//model.addAttribute("small", small);
 	
-	return "small";
+	return "bootstraplink";
 	}
 	
 }
