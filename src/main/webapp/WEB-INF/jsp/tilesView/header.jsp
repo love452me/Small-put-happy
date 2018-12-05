@@ -23,8 +23,68 @@
 			<a href="#" class="simple-text logo-normal">Creative Tim </a>
 		</div>
 		<div class="sidebar-wrapper ps-container ps-theme-default ps-active-y">
-			
-			<form class="navbar-form">
+		
+		<!-- header 영역 -->	
+		<ul class="nav">
+          <li class="nav-item  ">
+            <a class="nav-link" href="./dashboard.html">
+              <i class="material-icons">dashboard</i>
+              <p>Dashboard</p>
+            </a>
+          </li>
+          <li class="nav-item active ">
+            <a class="nav-link" href="./user.html">
+              <i class="material-icons">person</i>
+              <p>User Profile</p>
+            </a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link" href="./tables.html">
+              <i class="material-icons">content_paste</i>
+              <p>Table List</p>
+            </a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link" href="./typography.html">
+              <i class="material-icons">library_books</i>
+              <p>Typography</p>
+            </a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link" href="./icons.html">
+              <i class="material-icons">bubble_chart</i>
+              <p>Icons</p>
+            </a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link" href="./map.html">
+              <i class="material-icons">location_ons</i>
+              <p>Maps</p>
+            </a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link" href="./notifications.html">
+              <i class="material-icons">notifications</i>
+              <p>Notifications</p>
+            </a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link" href="./rtl.html">
+              <i class="material-icons">language</i>
+              <p>RTL Support</p>
+            </a>
+          </li>
+          <li class="nav-item active-pro ">
+            <a class="nav-link" href="./upgrade.html">
+              <i class="material-icons">unarchive</i>
+              <p>Upgrade to PRO</p>
+            </a>
+          </li>
+        </ul>
+		
+		<!-- Navbar 영역 -->	
+			 <form class="navbar-form">
+				<!-- 
 				<span class="bmd-form-group">
 					<div class="input-group no-border">
 						<input type="text" value="" class="form-control" placeholder="Search...">
@@ -34,16 +94,21 @@
 						</button>
 					</div>
 				</span>
+				 -->
 			</form>
 			
+			
 		<ul class="nav navbar-nav nav-mobile-menu">
+		<!-- 
 				<li class="nav-item">
 					<a class="nav-link" href="#pablo"> 
 						<i class="material-icons">dashboard</i>
 							<p class="d-lg-none d-md-block">dashboard</p>
 					</a>
-				</li>
+				</li> 
+				-->
 				
+				<!-- 
 				<li class="nav-item dropdown">
 				<a class="nav-link" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 					<i class="material-icons">notifications</i> 
@@ -58,8 +123,9 @@
 						<a class="dropdown-item" href="#">test3</a>
 						<a class="dropdown-item" href="#">test4</a>
 					</div>
-				</li>
-				
+				</li> 
+				-->
+				<!-- 
 				<li class="nav-item dropdown">
 						<a class="nav-link" href="#pablo" id="navbarDropdownProfile" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="material-icons">person</i>
 							<p class="d-lg-none d-md-block">Account</p>
@@ -70,7 +136,8 @@
 						<div class="dropdown-divider"></div>
 						<a class="dropdown-item" href="#">Log out</a>
 					</div>
-				</li>
+				</li> 
+				-->
 			</ul> 
 			
 			
