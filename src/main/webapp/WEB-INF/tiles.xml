@@ -13,9 +13,8 @@
   
   <!-- 레이아웃을 적용할 화면(2) -->  
 	<definition name="base.definition" template="/WEB-INF/jsp/tileLayout/baseLayout.jsp">    
-    	<put-attribute name="title" value="" />  <!-- 타이틀 -->       
-    	<put-attribute name="header" value="/WEB-INF/jsp/tilesView/header.jsp" /><!-- 메뉴 -->      
-    	<put-attribute name="menu" value="/WEB-INF/jsp/tilesView/menu.jsp" /><!-- 헤더 -->    
+     	<put-attribute name="header" value="/WEB-INF/jsp/tilesView/header.jsp" /><!-- 메뉴 -->      
+    	<put-attribute name="Navbar" value="/WEB-INF/jsp/tilesView/Navbar.jsp" /><!-- 헤더 -->    
     	<put-attribute name="body" value="" /> <!-- 바디 -->       
     	<put-attribute name="footer" value="/WEB-INF/jsp/tilesView/footer.jsp" />  <!-- 푸터/꼬릿말 --> 
 	</definition>       
@@ -36,8 +35,9 @@
       <put-attribute name="body" value="/WEB-INF/views/small.jsp" />
     </definition> 
 
-  <definition name="small" extends="base.definition">      
-      <put-attribute name="body" value="/WEB-INF/views/small.jsp" />
+
+  <definition name=".*" extends="base.definition">      
+      <put-attribute name="body" value="/WEB-INF/views/{1}.jsp" />
     </definition>
 
 
@@ -61,4 +61,11 @@
  로 치환시킵니다 물론 body의 매핑과 파일명을 맞춰야한다.
 
 extends = 사용하고자 하는, 적용하고자 하는 "tileslayout"의 이름을 기입하는 것
+
+여러가지로 적용하고 싶으면 
+ex) 
+    <definition name=".*" extends=".main">
+  		<put-attribute name="body" value="/WEB-INF/views/{1}.jsp" />
+	</definition>
+
 -->
