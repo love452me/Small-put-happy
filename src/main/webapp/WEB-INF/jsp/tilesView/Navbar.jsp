@@ -4,13 +4,12 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Insert title here</title>
 </head>
 <body>
 <nav class="navbar navbar-expand-lg navbar-transparent navbar-absolute fixed-top ">
         <div class="container-fluid">
           <div class="navbar-wrapper">
-            <a class="navbar-brand" href="#pablo">User Profile</a>
+            <a class="navbar-brand" href="#"> ##</a>
           </div>
           <button class="navbar-toggler" type="button" data-toggle="collapse" aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation">
             <span class="sr-only">Toggle navigation</span>
@@ -67,13 +66,19 @@
                   </p>
                 </a>
                 <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownProfile">
-                  <a class="dropdown-item" href="#">Profile</a>
-                  <a class="dropdown-item" href="#">Settings</a>
+                  <!-- 로그인 안한 페이지 -->
+                  <!--  <a class="dropdown-item" href="users/login">회원 멤버쉽</a>  --><!-- 로그인 안 했을 경우 -->
+                  <!-- 로그인 한 페이지 -->
+                  <a class="dropdown-item" href="users/membership">회원 멤버쉽</a>
+                  <a class="dropdown-item" href="users/shopping_cart">장바구니</a>
+                  <a class="dropdown-item" href="users/coupon_notice">쿠폰 알림</a>
+                  <a class="dropdown-item" href="users/clearance">결제</a>
                   <div class="dropdown-divider"></div>
-                  <a class="dropdown-item" href="#">Log out</a>
+                  <a class="dropdown-item" href="users/shopping_cart">로그아웃</a>
                 </div>
               </li>
             </ul>
+            
           </div>
     </div>
 </nav>

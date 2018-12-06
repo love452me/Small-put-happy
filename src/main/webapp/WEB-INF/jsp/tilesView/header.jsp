@@ -5,13 +5,12 @@
 
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Insert title here</title>
 </head>
 <body>
 	<!-- header영역 -->
 	
 	<!-- 위에 있는 상단부분 -->													<!-- 이미지 가져오게 하는 부분 -->																						
-	<div class="sidebar" data-color="purple" data-background-color="white" data-image="resources/material-dashboard-html-v2.1.1/assets/img/sidebar-1.jpg">
+	<div class="sidebar" data-color="purple" data-background-color="white" data-image="../resources/material-dashboard-html-v2.1.1/assets/img/sidebar-1.jpg">
 		<!--
         Tip 1: You can change the color of the sidebar using: data-color="purple | azure | green | orange | danger"
 
@@ -98,7 +97,7 @@
 			</form>
 			
 			
-		<ul class="nav navbar-nav nav-mobile-menu">
+		<ul class="navbar-nav nav-mobile-menu">
 		<!-- 
 				<li class="nav-item">
 					<a class="nav-link" href="#pablo"> 
@@ -143,7 +142,7 @@
 			
 		</div>
 		<!-- header이미지 첨부 -->
-		<div class="sidebar-background" style="background-image: url(resources/material-dashboard-html-v2.1.1/assets/img/sidebar-1.jpg)"></div>
+		<div class="sidebar-background" style="background-image: url(../resources/material-dashboard-html-v2.1.1/assets/img/sidebar-1.jpg)"></div>
 		</div>
 </body>
 

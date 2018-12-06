@@ -10,14 +10,17 @@ import org.springframework.web.servlet.ModelAndView;
 import com.mycom.Service.SmallService;
 
 /**
- * Handles requests for the application home page.
+ * 메인 콘트롤러/ 로그인 x
+ * 임시로 로그인 된 상태에서 후에 다시 수정
  */
 @Controller
 public class HomeController {
 	
+	
 	@Autowired
 	SmallService smallservice;
-		
+	
+	/** 메인 화면 (임시)로그인O*/
 	@RequestMapping(value = "/",  method = RequestMethod.GET)
 	public String smallmethod(Model model, ModelAndView mv) {
 		//List<Small> small = smallservice.getSmallList();
