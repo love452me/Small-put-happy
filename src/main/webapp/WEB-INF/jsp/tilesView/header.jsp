@@ -9,8 +9,8 @@
 <body>
 	<!-- header영역 -->
 	
-	<!-- 위에 있는 상단부분 -->													<!-- 이미지 가져오게 하는 부분 -->																						
-	<div class="sidebar" data-color="purple" data-background-color="white" data-image="../resources/material-dashboard-html-v2.1.1/assets/img/sidebar-1.jpg">
+	<!-- 위에 있는 상단부분 -->													<!-- 이미지 가져오게 하는 부분/	출처: 스폰서 이미지-셔터스톡 -->																						
+	<div class="sidebar" data-color="purple" data-background-color="white" data-image="../resources/material-dashboard-html-v2.1.1/assets/img/27701-NWOWFK.jpg">
 		<!--
         Tip 1: You can change the color of the sidebar using: data-color="purple | azure | green | orange | danger"
 

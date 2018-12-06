@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 public class UserController {
 
 	
-	/** 회원_멤버쉽*/
+	/** 회원_멤버쉽(미정)*/
 	@RequestMapping(value = "users/membership",  method = RequestMethod.GET)
 	public String membershipmethod(Model model) {
 	return "users/membership";
