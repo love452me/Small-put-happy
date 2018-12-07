@@ -13,22 +13,31 @@
 <body>
 	
 	<div class="wrapper">
-			<!-- header영역 -->
+		<div style= "overflow:auto;"> <!-- style= "overflow:auto;"  상단 스크롤바--> 
+			<!-- header영역 -->			
     			<tiles:insertAttribute name="header" />	
     		<!-- //header영역 -->	
     
    		<div class="main-panel ps-container ps-theme-default">
-    		<!-- Navbar영역 -->	
+    		<!-- Navbar영역 -->
+    		<div class="page-row page-row-expanded">	
     			<tiles:insertAttribute name="Navbar" />	
+    		</div>
     		<!-- //Navbar영역 -->
-    	
+    		
      		<!-- End Navbar/ body영역 -->	
+    		<div class="page-row">		
     			<tiles:insertAttribute name="body" />	
+    		</div>
     		<!-- //End Navbar영역 -->
     	
     		<!-- footer 영역 -->
-    			<tiles:insertAttribute name="footer" />
+    			<%-- <tiles:insertAttribute name="footer" /> --%>
     		<!-- //footer 영역 --> 	
+				<div class="ps-scrollbar-y-rail" style="top: 0px; right: 0px;">
+     				<div class="ps-scrollbar-y" tabindex="0" style="top: 0px; height: 0px;"></div>
+     			</div>
+			</div>
 		</div>
 	</div>
 </body>

@@ -19,67 +19,43 @@
 
 
 		<div class="logo">
-			<a href="#" class="simple-text logo-normal">Creative Tim </a>
+			<a href="#" class="simple-text logo-normal">Header </a>
 		</div>
 		<div class="sidebar-wrapper ps-container ps-theme-default ps-active-y">
 		
 		<!-- header 영역 -->	
 		<ul class="nav">
-          <li class="nav-item  ">
-            <a class="nav-link" href="./dashboard.html">
-              <i class="material-icons">dashboard</i>
-              <p>Dashboard</p>
+          <li class="nav-item"> <!--class = active(클릭시 특정색 띄게 해주는 역활)  -->
+            <a class="nav-link" href="header/merchandise">
+              <i class="material-icons">card_giftcard</i>
+              <p>상품</p>
             </a>
           </li>
-          <li class="nav-item active ">
-            <a class="nav-link" href="./user.html">
-              <i class="material-icons">person</i>
-              <p>User Profile</p>
+          <li class="nav-item">
+            <a class="nav-link" href="header/magazine">
+              <i class="material-icons">collections_bookmark</i>
+              <p>취미 매거진</p>
             </a>
           </li>
           <li class="nav-item ">
-            <a class="nav-link" href="./tables.html">
+            <a class="nav-link" href="header/review">
               <i class="material-icons">content_paste</i>
-              <p>Table List</p>
+              <p>상품 후기</p>
             </a>
           </li>
           <li class="nav-item ">
-            <a class="nav-link" href="./typography.html">
-              <i class="material-icons">library_books</i>
-              <p>Typography</p>
+            <a class="nav-link" href="header/lecture">
+              <i class="material-icons">ondemand_video</i>
+              <p>취미 동영상 강의</p>
             </a>
           </li>
           <li class="nav-item ">
-            <a class="nav-link" href="./icons.html">
+            <a class="nav-link" href="header/customer-facing">
               <i class="material-icons">bubble_chart</i>
-              <p>Icons</p>
+              <p>고객 센터</p>
             </a>
           </li>
-          <li class="nav-item ">
-            <a class="nav-link" href="./map.html">
-              <i class="material-icons">location_ons</i>
-              <p>Maps</p>
-            </a>
-          </li>
-          <li class="nav-item ">
-            <a class="nav-link" href="./notifications.html">
-              <i class="material-icons">notifications</i>
-              <p>Notifications</p>
-            </a>
-          </li>
-          <li class="nav-item ">
-            <a class="nav-link" href="./rtl.html">
-              <i class="material-icons">language</i>
-              <p>RTL Support</p>
-            </a>
-          </li>
-          <li class="nav-item active-pro ">
-            <a class="nav-link" href="./upgrade.html">
-              <i class="material-icons">unarchive</i>
-              <p>Upgrade to PRO</p>
-            </a>
-          </li>
-        </ul>
+       </ul>
 		
 		<!-- Navbar 영역 -->	
 			 <form class="navbar-form">

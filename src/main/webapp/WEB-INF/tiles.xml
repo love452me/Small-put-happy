@@ -54,6 +54,12 @@
 	<definition name="*/*" extends="base.users">      
     	<put-attribute name="body" value="/WEB-INF/views/users/{2}.jsp" />
     </definition>
+
+ 
+    <!-- 헤더 영역 (로그인 했을 경우)-->
+	<definition name="*/*" extends="base.users">      
+    	<put-attribute name="body" value="/WEB-INF/views/header/{2}.jsp" />
+    </definition>
  </tiles-definitions>
 
 <!-- 
