@@ -7,6 +7,18 @@
 <title>Insert title here</title>
 </head>
 <body>
-결제 영역
+
+<div class="col-md-6">
+		<div class="card">
+			<div class="card-header card-header-text card-header-primary">
+				<div class="card-text">
+					<h4 class="card-title">결제</h4>
+				</div>
+			</div>
+			<div class="card-body">The place is close to Barceloneta Beach
+				and bus stop just 2 min by walk and near to "Naviglio" where you can
+				enjoy the main night life in Barcelona...</div>
+		</div>
+	</div>
 </body>
 </html>

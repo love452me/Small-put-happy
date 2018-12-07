@@ -59,16 +59,16 @@
                   <!-- 로그인 한 페이지 -->
                   <a class="dropdown-item" href="users/membership">회원 멤버쉽</a>
                   <a class="dropdown-item" href="users/shopping_cart">장바구니</a>
-                  <a class="dropdown-item" href="users/coupon_notice">쿠폰 알림</a>
-                  <a class="dropdown-item" href="users/clearance">결제</a>
+                  <a class="dropdown-item" href="users/coupon_notice">쿠폰 알림</a>                 
                   <div class="dropdown-divider"></div>
-                  <a class="dropdown-item" href="users/user/logout">로그아웃</a>
+                  <a class="dropdown-item" href="users/user/logout" data-toggle="modal" data-target="#exampleModal">로그아웃</a>
                 </div>
-              </li>
-            </ul>
-            
-          </div>
-    </div>
-</nav>
+              	</li>
+			</ul>          
+      	</div>
+    	</div>
+	</nav>
 </body>
+
+
 </html>

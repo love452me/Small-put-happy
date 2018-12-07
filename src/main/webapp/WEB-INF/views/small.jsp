@@ -14,12 +14,10 @@
 				<div class="card">
 					<div class="card-body">							
 						<div id="typography">
-							<div class="row">
-								
+							<div class="row">								
 								<!-- carousel 이미지 크기조정 / 뱡향 문제 -->
 								<div class="col-lg-8 offset-lg-2" id="slider">
-									<div id="myCarousel" class="carousel slide">
-											
+									<div id="myCarousel" class="carousel slide">										
 											<!-- main slider carousel items -->
 											<div class="carousel-inner">
 												<div class="active item carousel-item" data-slide-number="0">
@@ -232,12 +230,30 @@
 							</nav> 
 							-->	<!-- //페이징 영역 -->
 														
-						</div><!-- div //card-body -->
-				</div><!-- div// card -->					
-			</div> <!-- div //col-md-12 -->
-		</div> <!-- div// row -->
-	</div> <!-- div //container-fluid  -->
-</div> <!-- div //content -->
+						</div><!-- div //-->
+				</div><!-- div// -->
+
+			<!-- 로그아웃 모달창 -->
+				<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+					<div class="modal-dialog" role="document">
+						<div class="modal-content">
+							<div class="modal-header">
+								<h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+									<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+										<span aria-hidden="true">&times;</span>
+									</button>
+							</div>
+							<div class="modal-body">...</div>
+							<div class="modal-footer">
+								<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+								<button type="button" class="btn btn-primary">Save changes</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div> <!-- div //row -->
+		</div> <!-- div// -fluid -->
+	</div> <!-- div //container-->		
 </body>
 </html>
 <%-- 	

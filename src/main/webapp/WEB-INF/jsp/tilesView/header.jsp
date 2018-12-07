@@ -23,34 +23,34 @@
 		</div>
 		<div class="sidebar-wrapper ps-container ps-theme-default ps-active-y">
 		
-		<!-- header 영역 -->	
+		<!-- header 영역 -->
 		<ul class="nav">
           <li class="nav-item"> <!--class = active(클릭시 특정색 띄게 해주는 역활)  -->
-            <a class="nav-link" href="header/merchandise">
+            <a class="nav-link" href="header/merchandise" title="상품">
               <i class="material-icons">card_giftcard</i>
               <p>상품</p>
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="header/magazine">
+            <a class="nav-link" href="header/magazine" title="취미 매거진">
               <i class="material-icons">collections_bookmark</i>
               <p>취미 매거진</p>
             </a>
           </li>
           <li class="nav-item ">
-            <a class="nav-link" href="header/review">
+            <a class="nav-link" href="header/review" title="상품후기">
               <i class="material-icons">content_paste</i>
               <p>상품 후기</p>
             </a>
           </li>
           <li class="nav-item ">
-            <a class="nav-link" href="header/lecture">
+            <a class="nav-link" href="header/lecture" title="동영상 강의">
               <i class="material-icons">ondemand_video</i>
               <p>취미 동영상 강의</p>
             </a>
           </li>
           <li class="nav-item ">
-            <a class="nav-link" href="header/customer-facing">
+            <a class="nav-link" href="header/customer-facing" title="고객 센터">
               <i class="material-icons">bubble_chart</i>
               <p>고객 센터</p>
             </a>

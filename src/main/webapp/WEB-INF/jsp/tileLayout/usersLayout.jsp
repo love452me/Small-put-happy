@@ -14,27 +14,29 @@
 <body>
 
 	<div class="wrapper">
-			<!-- header영역 -->
-				<tiles:insertAttribute name="header" />
-			<!-- //header영역 -->
-
-		<div class="main-panel ps-container ps-theme-default">
-			<!-- Navbar영역 -->
-				<tiles:insertAttribute name="Navbar" />
-			<!-- //Navbar영역 -->
+		<div style= "overflow:auto;">	
+				<!-- header영역 -->
+					<tiles:insertAttribute name="header" />
+				<!-- //header영역 -->
+	
+			<div class="main-panel ps-container ps-theme-default">
+				<!-- Navbar영역 -->
+					<tiles:insertAttribute name="Navbar" />
+				<!-- //Navbar영역 -->
 				<div class="content">
 					<div class="container-fluid ">
 						<div class="row col-md-12">
-						<!-- End Navbar/ body영역 -->
+							<!-- End Navbar/ body영역 -->
 							<tiles:insertAttribute name="body" />
 						</div>
 					</div>
 				</div>
-			<!-- //End Navbar영역 -->
+				<!-- //End Navbar영역 -->
 
-			<!-- footer 영역 -->
-			<tiles:insertAttribute name="footer" />
-			<!-- //footer 영역 -->
+				<!-- footer 영역 -->
+					<tiles:insertAttribute name="footer" />
+				<!-- //footer 영역 -->
+			</div>
 		</div>
 	</div>
 </body>

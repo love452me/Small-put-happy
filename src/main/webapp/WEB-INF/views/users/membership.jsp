@@ -7,15 +7,19 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<div class="info info-horizontal ">
-		<div class="icon icon-rose">
-			<i class="material-icons">group_work</i>
-		</div>
-		<div class="description">
-			<h4 class="info-title">Collaborate</h4>
-			<p>The moment you use Material Kit, you know you’ve never felt anything like it. With a single use, this powerfull UI Kit lets you do more than ever before.</p>
-			<a href="#pablo">Find more...</a>
+	
+		<div class="col-md-6">
+		<div class="card">
+			<div class="card-header card-header-text card-header-primary">
+				<div class="card-text">
+					<h4 class="card-title">회원 멤버쉽</h4>
+				</div>
+			</div>
+			<div class="card-body">The place is close to Barceloneta Beach
+				and bus stop just 2 min by walk and near to "Naviglio" where you can
+				enjoy the main night life in Barcelona...</div>
 		</div>
 	</div>
+	
 </body>
 </html>
