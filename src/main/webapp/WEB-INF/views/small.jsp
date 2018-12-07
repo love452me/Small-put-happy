@@ -238,15 +238,17 @@
 					<div class="modal-dialog" role="document">
 						<div class="modal-content">
 							<div class="modal-header">
-								<h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+								<h5 class="modal-title" id="exampleModalLabel">로그아웃 하실 건가요?</h5>
 									<button type="button" class="close" data-dismiss="modal" aria-label="Close">
 										<span aria-hidden="true">&times;</span>
 									</button>
 							</div>
-							<div class="modal-body">...</div>
+							<div class="modal-body">
+							로그아웃 모달창의 내용들
+							</div>
 							<div class="modal-footer">
-								<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-								<button type="button" class="btn btn-primary">Save changes</button>
+								<button type="button" class="btn btn-secondary" data-dismiss="modal">없어지는 버튼</button>
+								<button type="button" class="btn btn-primary">그냥 있는 버튼</button>
 							</div>
 						</div>
 					</div>
