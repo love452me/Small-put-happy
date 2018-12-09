@@ -12,9 +12,10 @@
 		<div class="card">
 			<div class="card-header card-header-text card-header-primary">
 				<div class="card-text">
-					<h4 class="card-title">쿠폰 알림</h4>
+					<h4 class="card-title">쿠폰 함</h4>
 				</div>
 			</div>
+			<!-- 쿠폰 소식 -->
 			<div class="card-body">
  				<div class="alert alert-success" "alert-dismissible">
     				<button type="button" class="close" data-dismiss="alert">&times;</button>
@@ -36,12 +37,17 @@
     				<button type="button" class="close" data-dismiss="alert">&times;</button>
     				<strong>Primary!</strong> This alert box specify an important action.
   				</div>  				  				
-			
+				내 쿠폰함
 				<div class="card" width="300" height="300">
   					<ul class="list-group list-group-flush">
-    					<li class="list-group-item">쿠폰 저장소 (아직 디자인 미정)</li>
+    					<li class="list-group-item">내 쿠폰함 (아직 디자인 미정)</li>
     				</ul>
 				</div>
+				<div class="card" width="300" height="300">
+  					<ul class="list-group list-group-flush">
+    					<li class="list-group-item">쿠폰 사용내역 (아직 디자인 미정)</li>
+    				</ul>
+				</div>			
 			</div>
 		</div>
 	</div>

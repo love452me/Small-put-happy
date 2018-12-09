@@ -4,7 +4,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html lang="en" class="perfect-scrollbar-on">
 <head>
-
+<link rel="icon" type="image/png" href="../resources/material-dashboard-html-v2.1.1/assets/img/Mainimg/boho_style.PNG">
 <!-- 메인 jspf -->
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Small, but definite happiness</title>

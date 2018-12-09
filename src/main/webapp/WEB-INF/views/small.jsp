@@ -247,8 +247,8 @@
 							로그아웃 모달창의 내용들
 							</div>
 							<div class="modal-footer">
-								<button type="button" class="btn btn-secondary" data-dismiss="modal">없어지는 버튼</button>
-								<button type="button" class="btn btn-primary">그냥 있는 버튼</button>
+								<button type="button" class="btn btn-secondary" data-dismiss="modal">취소</button>
+								<button type="button" class="btn btn-primary">로그아웃</button>
 							</div>
 						</div>
 					</div>
