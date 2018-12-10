@@ -55,8 +55,8 @@
                 </a>
                 <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownProfile">
                   <!-- 로그인 한 페이지 -->                  
-                  <a class="dropdown-item" href="users/shopping_cart">장바구니</a>
-                  <a class="dropdown-item" href="users/coupon_notice">쿠폰 함</a>                 
+                  <a class="dropdown-item" href="/users/shopping_cart">장바구니</a>
+                  <a class="dropdown-item" href="/users/coupon_notice">쿠폰 함</a>                 
                   <div class="dropdown-divider"></div>
                   <a class="dropdown-item" href="users/user/logout" data-toggle="modal" data-target="#exampleModal">로그아웃</a>
                 </div>
