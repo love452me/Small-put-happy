@@ -4,6 +4,7 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html lang="en" class="perfect-scrollbar-on">
+<link href="../resources/material-dashboard-html-v2.1.1/assets/css/html_Length.css" rel="stylesheet" />
 <head>
 
 <!-- 사용자 -->

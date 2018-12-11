@@ -29,6 +29,14 @@
     	<put-attribute name="body" value="" /> <!-- 바디 -->       
     	<put-attribute name="footer" value="/WEB-INF/jsp/tilesView/footer.jsp" />  <!-- 푸터/꼬릿말 --> 
 	</definition>
+	
+	<!-- 사용자 //  Navbar.jsp-->  
+	<definition name="Header.users" template="/WEB-INF/jsp/tileLayout/HeaderLayout.jsp">    
+     	<put-attribute name="header" value="/WEB-INF/jsp/tilesView/header.jsp" /><!-- 메뉴 -->      
+    	<put-attribute name="Navbar" value="/WEB-INF/jsp/tilesView/Navbar.jsp" /><!-- 헤더 -->    
+    	<put-attribute name="body" value="" /> <!-- 바디 -->       
+    	<put-attribute name="footer" value="/WEB-INF/jsp/tilesView/footer.jsp" />  <!-- 푸터/꼬릿말 --> 
+	</definition>
 	     
 	
 <!-- ==================================================================================================== -->
@@ -53,18 +61,18 @@
   
   
    <!-- 유저 정보 (로그인 했을 경우)-->
-	<definition name="*/*" extends="Navbar.users">      
-    	<put-attribute name="body" value="/WEB-INF/views/{1}/{2}.jsp" />
+	<definition name="users/*" extends="Navbar.users">      
+    	<put-attribute name="body" value="/WEB-INF/views/users/{1}.jsp" />
     </definition>
    
      
     <!-- 헤더 영역 (로그인 했을 경우)-->	
-	<!-- 500 error 보류 -->	
-	<!--
+		
+	
  	<definition name="header/*" extends="Header.users">      
     	<put-attribute name="body" value="/WEB-INF/views/header/{1}.jsp" />
     </definition>
-    -->
+    
     
  </tiles-definitions>
 

@@ -16,64 +16,39 @@
 						<div id="typography">
 							<div class="row">								
 								<!-- carousel 이미지 크기조정 / 뱡향 문제 -->
-								<div class="col-lg-8 offset-lg-2" id="slider">
-									<div id="myCarousel" class="carousel slide" data-ride="carousel">										
-											<!-- main slider carousel items -->
-											<ol class="carousel-indicators">
-												<li class="list-inline-item active">
-													<a id="carousel-selector-0" class="selected" data-slide-to="0" data-target="#myCarousel"> 
-														<img src="http://placehold.it/80x60&amp;text=one" class="img-fluid">
-													</a>
-												</li>
-												<li class="list-inline-item">
-													<a id="carousel-selector-1" data-slide-to="0" data-target="#myCarousel"> 
-														<img src="http://placehold.it/80x60&amp;text=two" class="img-fluid">
-													</a>
-												</li>
-												<li class="list-inline-item">
-													<a id="carousel-selector-2" data-slide-to="1" data-target="#myCarousel"> 
-														<img src="http://placehold.it/80x60&amp;text=three" class="img-fluid">
-													</a>
-												</li>
-												<li class="list-inline-item">
-													<a id="carousel-selector-3" data-slide-to="2" data-target="#myCarousel"> 
-														<img src="http://placehold.it/80x60&amp;text=four" class="img-fluid">
-													</a>
-												</li>
-												<li class="list-inline-item">
-													<a id="carousel-selector-3" data-slide-to="3" data-target="#myCarousel"> 
-														<img src="http://placehold.it/80x60&amp;text=four" class="img-fluid">
-													</a>
-												</li>
-												<li class="list-inline-item">
-													<a id="carousel-selector-3" data-slide-to="4" data-target="#myCarousel"> 
-														<img src="http://placehold.it/80x60&amp;text=four" class="img-fluid">
-													</a>
-												</li>
-												
-											</ol>											
-											<div class="carousel-inner"> <!-- 이미지 표현해주는 녀석 -->
-												<div class="active item carousel-item" data-slide-number="0">
-													<img src="../resources/material-dashboard-html-v2.1.1/assets/img/27701-NWOWFK.jpg" class="img-fluid" width="300" height="300" alt="테스트1">
-												</div>
-												<div class="item carousel-item" data-slide-number="1">
-													<img src="../resources/material-dashboard-html-v2.1.1/assets/img/Mainimg/26456-NW9K1M.jpg" class="img-fluid" width="300" height="300" alt="테스트2">
-												</div>
-												<div class="item carousel-item" data-slide-number="2">
-													<img src="../resources/material-dashboard-html-v2.1.1/assets/img/Mainimg/26679-NW9J4Q.jpg" class="img-fluid" width="300" height="300" alt="테스트3">
-												</div>
-												<div class="item carousel-item" data-slide-number="3">
-													<img src="../resources/material-dashboard-html-v2.1.1/assets/img/Mainimg/26680-NW9KK2.jpg" class="img-fluid" width="300" height="300" alt="테스트4">
-												</div>
-												<div class="item carousel-item" data-slide-number="4">
-													<img src="../resources/material-dashboard-html-v2.1.1/assets/img/Mainimg/31393-NY9DZS.jpg" class="img-fluid" width="300" height="300" alt="테스트5">
-												</div>																						
-											</div>
-									</div>
-								</div><!-- div //carousel  -->
+								<div class="card card-nav-tabs" height="300px" >
+								<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+  									<ol class="carousel-indicators">
+    									<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    									<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    									<li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+  									</ol>
+  									<div class="carousel-inner">
+    									<div class="carousel-item active">
+      										<img src="../resources/material-dashboard-html-v2.1.1/assets/img/27701-NWOWFK.jpg" alt="첫번째 슬라이드" >
+    									</div>
+    									<div class="carousel-item">
+      										<img src="../resources/material-dashboard-html-v2.1.1/assets/img/Mainimg/26456-NW9K1M.jpg" alt="두번째 슬라이드">
+    									</div>
+    									<div class="carousel-item">
+      										<img src="../resources/material-dashboard-html-v2.1.1/assets/img/Mainimg/26679-NW9J4Q.jpg" alt="세번째 슬라이드" >
+    									</div>
+  									</div>
+  										<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    										<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    										<span class="sr-only">이전</span>
+  										</a>
+  										<a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    										<span class="carousel-control-next-icon" aria-hidden="true"></span>
+    										<span class="sr-only">다음</span>
+  										</a>
+								</div>
+								</div>
 									<!-- vv 이미지 간격을 좀 벌려야 함 -->
 								<div class="card card-nav-tabs">
-									<h4 class="card-header card-header-primary">이달의 추천 취미상품</h4>
+								
+									<div class="card-header card-header-primary">###</div>
+									
 									<img src="#">
 									<div class="card-body">
 										<h4 class="card-title">본문 제목</h4>

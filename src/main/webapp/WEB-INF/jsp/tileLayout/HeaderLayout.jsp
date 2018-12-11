@@ -1,17 +1,19 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
 <%@ taglib prefix="tiles" uri="http://tiles.apache.org/tags-tiles"%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html lang="en" class="perfect-scrollbar-on">
+<link href="../resources/material-dashboard-html-v2.1.1/assets/css/html_Length.css" rel="stylesheet" />
 <head>
-<link rel="icon" type="image/png" href="../resources/material-dashboard-html-v2.1.1/assets/img/Mainimg/boho_style.PNG">
-<!-- 메인 jspf -->
+
+<!-- 사용자 -->
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Small, but definite happiness</title>
- <%@ include file="/WEB-INF/include/include-header.jspf"%>
+<%@ include file="/WEB-INF/include/include-users.jspf"%>
 </head>
 <body>
-	
+
 	<div class="wrapper">
 		<div style= "overflow:auto;"> <!-- style= "overflow:auto;"  상단 스크롤바--> 
 			<!-- header영역 -->			
