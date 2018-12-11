@@ -32,7 +32,7 @@
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="/header/magazine" title="취미 매거진">
+            <a class="nav-link" href="/header/magazine" title="취미 매거진"> <!-- 템플릿 병합 -->
               <i class="material-icons">collections_bookmark</i>
               <p>취미 매거진</p>
             </a>
@@ -58,67 +58,11 @@
        </ul>
 		
 		<!-- Navbar 영역 -->	
-			 <form class="navbar-form">
-				<!-- 
-				<span class="bmd-form-group">
-					<div class="input-group no-border">
-						<input type="text" value="" class="form-control" placeholder="Search...">
-						<button type="submit" class="btn btn-white btn-round btn-just-icon">
-							<i class="material-icons">search</i>
-							<div class="ripple-container"></div>
-						</button>
-					</div>
-				</span>
-				 -->
-			</form>
-			
-			
-		<ul class="navbar-nav nav-mobile-menu">
-		<!-- 
-				<li class="nav-item">
-					<a class="nav-link" href="#pablo"> 
-						<i class="material-icons">dashboard</i>
-							<p class="d-lg-none d-md-block">dashboard</p>
-					</a>
-				</li> 
-				-->
-				
-				<!-- 
-				<li class="nav-item dropdown">
-				<a class="nav-link" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-					<i class="material-icons">notifications</i> 
-						<span class="notification">0</span>
-							<p class="d-lg-none d-md-block">Some Actions</p>
-				</a>
-					
-					<div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
-						<a class="dropdown-item" href="#">누르면 나오게 끔</a> 
-						<a class="dropdown-item" href="#">test1</a>
-						<a class="dropdown-item" href="#">test2</a> 
-						<a class="dropdown-item" href="#">test3</a>
-						<a class="dropdown-item" href="#">test4</a>
-					</div>
-				</li> 
-				-->
-				<!-- 
-				<li class="nav-item dropdown">
-						<a class="nav-link" href="#pablo" id="navbarDropdownProfile" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="material-icons">person</i>
-							<p class="d-lg-none d-md-block">Account</p>
-						</a>
-					<div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownProfile">
-						<a class="dropdown-item" href="#">Profile</a> 
-						<a class="dropdown-item" href="#">Settings</a>
-						<div class="dropdown-divider"></div>
-						<a class="dropdown-item" href="#">Log out</a>
-					</div>
-				</li> 
-				-->
-			</ul> 
-			
-			
+			 <form class="navbar-form"></form>		
+		<ul class="navbar-nav nav-mobile-menu"></ul> 
 		</div>
 		<!-- header이미지 첨부 -->
-		<div class="sidebar-background" style="background-image: url(../resources/material-dashboard-html-v2.1.1/assets/img/sidebar-1.jpg)"></div>
+		<div class="sidebar-background" style="background-image: url(../resources/material-dashboard-html-v2.1.1/assets/img/27701-NWOWFK.jpg)"></div>
 		</div>
 </body>
 

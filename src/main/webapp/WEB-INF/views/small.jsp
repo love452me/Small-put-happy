@@ -8,7 +8,7 @@
 <body>
 
 <div class="content">
-	<div class="container-fluid ">
+	<div class="container-fluid">
 		<div class="row">
 			<div class="col-md-12" >
 				<div class="card">
@@ -17,9 +17,42 @@
 							<div class="row">								
 								<!-- carousel 이미지 크기조정 / 뱡향 문제 -->
 								<div class="col-lg-8 offset-lg-2" id="slider">
-									<div id="myCarousel" class="carousel slide">										
+									<div id="myCarousel" class="carousel slide" data-ride="carousel">										
 											<!-- main slider carousel items -->
-											<div class="carousel-inner">
+											<ol class="carousel-indicators">
+												<li class="list-inline-item active">
+													<a id="carousel-selector-0" class="selected" data-slide-to="0" data-target="#myCarousel"> 
+														<img src="http://placehold.it/80x60&amp;text=one" class="img-fluid">
+													</a>
+												</li>
+												<li class="list-inline-item">
+													<a id="carousel-selector-1" data-slide-to="0" data-target="#myCarousel"> 
+														<img src="http://placehold.it/80x60&amp;text=two" class="img-fluid">
+													</a>
+												</li>
+												<li class="list-inline-item">
+													<a id="carousel-selector-2" data-slide-to="1" data-target="#myCarousel"> 
+														<img src="http://placehold.it/80x60&amp;text=three" class="img-fluid">
+													</a>
+												</li>
+												<li class="list-inline-item">
+													<a id="carousel-selector-3" data-slide-to="2" data-target="#myCarousel"> 
+														<img src="http://placehold.it/80x60&amp;text=four" class="img-fluid">
+													</a>
+												</li>
+												<li class="list-inline-item">
+													<a id="carousel-selector-3" data-slide-to="3" data-target="#myCarousel"> 
+														<img src="http://placehold.it/80x60&amp;text=four" class="img-fluid">
+													</a>
+												</li>
+												<li class="list-inline-item">
+													<a id="carousel-selector-3" data-slide-to="4" data-target="#myCarousel"> 
+														<img src="http://placehold.it/80x60&amp;text=four" class="img-fluid">
+													</a>
+												</li>
+												
+											</ol>											
+											<div class="carousel-inner"> <!-- 이미지 표현해주는 녀석 -->
 												<div class="active item carousel-item" data-slide-number="0">
 													<img src="../resources/material-dashboard-html-v2.1.1/assets/img/27701-NWOWFK.jpg" class="img-fluid" width="300" height="300" alt="테스트1">
 												</div>
@@ -34,54 +67,8 @@
 												</div>
 												<div class="item carousel-item" data-slide-number="4">
 													<img src="../resources/material-dashboard-html-v2.1.1/assets/img/Mainimg/31393-NY9DZS.jpg" class="img-fluid" width="300" height="300" alt="테스트5">
-												</div>
-												
-												<a class="carousel-control left pt-3" href="#myCarousel" data-slide="prev"> <i class="fa fa-chevron-left"></i></a> 
-												<a class="carousel-control right pt-3" href="#myCarousel" data-slide="next"> <i class="fa fa-chevron-right"></i> </a>
+												</div>																						
 											</div>
-											
-											<!-- 밑에 있는 몇개 있는 지 알려주는 애-->
-											<ul class="carousel-indicators list-inline">
-												<li class="list-inline-item active">
-													<a id="carousel-selector-0" class="selected" data-slide-to="0" data-target="#myCarousel"> 
-														<img src="http://placehold.it/80x60&amp;text=one" class="img-fluid"></a>
-												</li>
-												<li class="list-inline-item">
-													<a id="carousel-selector-1" data-slide-to="1" data-target="#myCarousel"> 
-														<img src="http://placehold.it/80x60&amp;text=two" class="img-fluid">
-													</a>
-												</li>
-												<li class="list-inline-item">
-													<a id="carousel-selector-2" data-slide-to="2" data-target="#myCarousel"> 
-														<img src="http://placehold.it/80x60&amp;text=three" class="img-fluid">
-													</a>
-												</li>
-												<li class="list-inline-item">
-													<a id="carousel-selector-3" data-slide-to="3" data-target="#myCarousel"> 
-														<img src="http://placehold.it/80x60&amp;text=four" class="img-fluid">
-													</a>
-												</li>
-												<li class="list-inline-item">
-													<a id="carousel-selector-4" data-slide-to="4" data-target="#myCarousel"> 
-														<img src="http://placehold.it/80x60&amp;text=five" class="img-fluid">
-													</a>
-												</li>
-												<li class="list-inline-item">
-													<a id="carousel-selector-5" data-slide-to="5" data-target="#myCarousel"> 
-														<img src="http://placehold.it/80x60&amp;text=six" class="img-fluid">
-													</a>
-												</li>
-												<li class="list-inline-item">						<!-- data-target -->
-													<a id="carousel-selector-6" data-slide-to="6" href="#myCarousel"> 
-														<img src="http://placehold.it/80x60&amp;text=seven" class="img-fluid">
-													</a>
-												</li>
-												<li class="list-inline-item">
-													<a id="carousel-selector-7" data-slide-to="7" href="#myCarousel"> 
-														<img src="http://placehold.it/80x60&amp;text=eight" class="img-fluid">
-													</a>
-												</li>
-											</ul>
 									</div>
 								</div><!-- div //carousel  -->
 									<!-- vv 이미지 간격을 좀 벌려야 함 -->
@@ -125,7 +112,7 @@
 									</a>
 								</div>
 								<div class="card-body ">
-									<h4 class="card-title">강사님의 한마디</h4>
+									<h4 class="card-title">#</h4>
 										<div id="accordion" role="tablist">
   											<div class="card card-collapse">
     										<div class="card-header" role="tab" id="headingOne">

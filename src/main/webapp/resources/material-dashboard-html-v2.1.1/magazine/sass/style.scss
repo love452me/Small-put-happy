@@ -101,7 +101,7 @@ html {
 	background: $brand-white;
 }
 body {
-	font-family: $font-secondary;
+	   font-family: $font-secondary;
 	font-size: 18px;
 	font-weight: 300;
 	line-height: 1.8;
@@ -109,6 +109,7 @@ body {
 	background: $brand-white;
 	&.fh5co-overflow {
 		overflow-x: auto;	
+	}
 	}
 }
 
@@ -130,7 +131,7 @@ body {
 
 
 a {
-	color: $brand-primary;
+	color: :#000000;
 	@include transition(.5s);
 	&:hover, &:focus, &:active {
 		color: darken($brand-primary, 15%);
