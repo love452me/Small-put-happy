@@ -8,5 +8,7 @@
 </head>
 <body>
 
+매거진 상세 영역
+
 </body>
 </html>

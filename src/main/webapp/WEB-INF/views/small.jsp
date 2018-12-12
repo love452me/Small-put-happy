@@ -16,22 +16,24 @@
 						<div id="typography">
 							<div class="row">								
 								<!-- carousel 이미지 크기조정 / 뱡향 문제 -->
-								<div class="card card-nav-tabs" height="300px" >
-								<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+								
+								<div class="card card-nav-tabs" >
+								<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" >
   									<ol class="carousel-indicators">
     									<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
     									<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
     									<li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
   									</ol>
   									<div class="carousel-inner">
+  										<!-- 이미지 크기 줄이기 -->
     									<div class="carousel-item active">
-      										<img src="../resources/material-dashboard-html-v2.1.1/assets/img/27701-NWOWFK.jpg" alt="첫번째 슬라이드" >
+      										<img src="../resources/material-dashboard-html-v2.1.1/assets/img/test/output/15603-NQ9H1U.jpg" alt="첫번째 슬라이드">
     									</div>
     									<div class="carousel-item">
-      										<img src="../resources/material-dashboard-html-v2.1.1/assets/img/Mainimg/26456-NW9K1M.jpg" alt="두번째 슬라이드">
+      										<img src="../resources/material-dashboard-html-v2.1.1/assets/img/test/output/26679-NW9J4Q.jpg" alt="두번째 슬라이드">
     									</div>
     									<div class="carousel-item">
-      										<img src="../resources/material-dashboard-html-v2.1.1/assets/img/Mainimg/26679-NW9J4Q.jpg" alt="세번째 슬라이드" >
+      										<img src="../resources/material-dashboard-html-v2.1.1/assets/img/test/output/26679-NW9J4Q.jpg" alt="세번째 슬라이드">
     									</div>
   									</div>
   										<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -44,8 +46,14 @@
   										</a>
 								</div>
 								</div>
+								
+								
+								
+								
+
+								 
 									<!-- vv 이미지 간격을 좀 벌려야 함 -->
-								<div class="card card-nav-tabs">
+<!-- 								<div class="card card-nav-tabs">
 								
 									<div class="card-header card-header-primary">###</div>
 									
@@ -53,12 +61,12 @@
 									<div class="card-body">
 										<h4 class="card-title">본문 제목</h4>
 											<p class="card-text">본문 내용</p>
-											<!-- 클릭시 "추천 취미삼품"으로 이동 -->										
+											클릭시 "추천 취미삼품"으로 이동										
 											<a href="#" class="btn btn-primary">이동</a>
 									</div>
-								</div> <!-- div //card card-nav-tabs -->
-							</div><!-- div //card_row -->
-						</div><!-- div //typography -->
+								</div> div //card card-nav-tabs
+							</div>div //card_row
+						</div>div //typography
 						<div class="row text-center"> 	
 							<div class="card col-lg-3 col-md-4 col-xs-6" style="width: 20rem;">
   								<img class="card-img-top" src="../resources/material-dashboard-html-v2.1.1/assets/img/27701-NWOWFK.jpg" width="300" height="300" >
@@ -78,11 +86,11 @@
     									<p class="card-text">이미지 본문내용// 이 달의 추천하는 취미</p>
   									</div>
 							</div>									
-						</div> <!-- div //card_row -->
+						</div> div //card_row
 							<div class="card card-profile ml-auto mr-auto" style="max-width: 360px">
 								<div class="card-header card-header-image">
 									<a href="#"> 
-										<!-- 동영상으로 대처할 상황 -->
+										동영상으로 대처할 상황
 										<img class="img" src="#" width="300" height="300" >
 									</a>
 								</div>
@@ -92,7 +100,7 @@
   											<div class="card card-collapse">
     										<div class="card-header" role="tab" id="headingOne">
       											<h5 class="mb-0">
-      											<!-- vv나중에 닫혀있는 상태로 바꿔야 함 -->
+      											vv나중에 닫혀있는 상태로 바꿔야 함
         										<a data-toggle="collapse" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">클릭!
           										<i class="material-icons">keyboard_arrow_down</i>
         										</a>
@@ -105,9 +113,10 @@
   										</div>
 									</div>
 								</div>
-							</div> <!-- div// 동영상 영역 -->					
+							</div> 
 							
-							<!-- 상품 후기들 이미지 -->
+											
+							상품 후기들 이미지
 							<div class="card-header card-header-primary"> 상품 후기들</div>
 							<div class="card-body">
 							<div class="row text-center text-lg-left">							
@@ -172,30 +181,14 @@
           							</a>
         						</div>
         						</div>
-      						</div> <!-- div// 상품 후기 이미지들 -->
+      						</div> div// 상품 후기 이미지들
 						
-						</div>	<!-- div// 본문 card-body -->
-							<!-- 페이징 영역 -->
-							<!-- 
-							<nav aria-label="...">
-							<ul class="pagination">
-								<li class="page-item disabled"><span class="page-link">Previous</span>
-								</li>
-								<li class="page-item"><a class="page-link" href="#">1</a></li>
-								<li class="page-item active"><span class="page-link">
-										2 <span class="sr-only">(current)</span>
-								</span></li>
-								<li class="page-item"><a class="page-link" href="#">3</a></li>
-								<li class="page-item"><a class="page-link" href="#">Next</a>
-								</li>
-							</ul>
-							</nav> 
-							-->	<!-- //페이징 영역 -->
+						</div>	div// 본문 card-body
 														
-						</div><!-- div //-->
-				</div><!-- div// -->
+						</div>div //
+				</div>div//
 
-			<!-- 로그아웃 모달창 -->
+			로그아웃 모달창
 				<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
 					<div class="modal-dialog" role="document">
 						<div class="modal-content">
@@ -211,6 +204,11 @@
 							<div class="modal-footer">
 								<button type="button" class="btn btn-secondary" data-dismiss="modal">취소</button>
 								<button type="button" class="btn btn-primary">로그아웃</button>
+							</div>
+						</div>
+					</div> 
+-->
+								</div>
 							</div>
 						</div>
 					</div>

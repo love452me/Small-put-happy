@@ -20,12 +20,18 @@ public class HomeController {
 	@Autowired
 	SmallService smallservice;
 	
-	/** 메인 화면 (임시)로그인O*/
+	/** 메인 화면-> 로그인 안한 페이지*/
 	@RequestMapping(value = "/",  method = RequestMethod.GET)
 	public String smallmethod(Model model, ModelAndView mv) {
 		//List<Small> small = smallservice.getSmallList();
 		//model.addAttribute("small", small);
 	return "small";
+	}
+	
+	/** 메인 화면/ -> 로그인 한 페이지*/
+	@RequestMapping(value = "loginSmall",  method = RequestMethod.GET)
+	public String loginsmallmethod(Model model) {		
+	return "loginSmall";
 	}
 	
 }

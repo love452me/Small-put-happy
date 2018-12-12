@@ -10,7 +10,7 @@
 	<!-- header영역 -->
 	
 	<!-- 위에 있는 상단부분 -->													<!-- 이미지 가져오게 하는 부분/	출처: 스폰서 이미지-셔터스톡 -->																						
-	<div class="sidebar" data-color="purple" data-background-color="white" data-image="../resources/material-dashboard-html-v2.1.1/assets/img/27701-NWOWFK.jpg">
+	<div class="sidebar" data-color="purple" data-background-color="white" data-image="/resources/material-dashboard-html-v2.1.1/assets/img/27701-NWOWFK.jpg">
 		<!--
         Tip 1: You can change the color of the sidebar using: data-color="purple | azure | green | orange | danger"
 
@@ -49,20 +49,14 @@
               <p>취미 동영상 강의</p>
             </a>
           </li>
-          <li class="nav-item ">
-            <a class="nav-link" href="/header/customer-facing" title="고객 센터">
-              <i class="material-icons">bubble_chart</i>
-              <p>고객 센터</p>
-            </a>
-          </li>
-       </ul>
+        </ul>
 		
 		<!-- Navbar 영역 -->	
 			 <form class="navbar-form"></form>		
 		<ul class="navbar-nav nav-mobile-menu"></ul> 
 		</div>
 		<!-- header이미지 첨부 -->
-		<div class="sidebar-background" style="background-image: url(../resources/material-dashboard-html-v2.1.1/assets/img/27701-NWOWFK.jpg)"></div>
+		<div class="sidebar-background" style="background-image: url(/resources/material-dashboard-html-v2.1.1/assets/img/27701-NWOWFK.jpg)"></div>
 		</div>
 </body>
 

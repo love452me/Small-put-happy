@@ -18,23 +18,18 @@
         			<a class="nav-link" data-toggle="tab" role="tablist" role="tablist" aria-expanded="true" href="#2">꾸준한 인기</a>
       			</li>
       			<li class="nav-item dropdown">
-        			<a class="nav-link dropdown-toggle" href="#3" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true">리뷰</a>
-      	  				<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-          	  				<a class="dropdown-item" href="#">최신 리뷰순</a>
-              				<a class="dropdown-item" href="#">최신 많은수</a>
-              				<a class="dropdown-item" href="#">평점이 높은순</a>
-          				</div>
+        			<a class="nav-link dropdown-toggle" href="#3" data-toggle="dropdown" aria-haspopup="true">리뷰</a>
       			</li>
     		</ul>
-  		</div>
-  		<div class="card-body">
+  		</div>		
+  		<div class="card-body"> <!-- 카드 내용 -->
     		<div class="row"><!-- 본문 내용 /forEach-->     			
       			<div class="col-lg-3 col-md-4 col-xs-6">
         			<div class="card card-chart">
           				<div class="card-header card-header-rose" data-header-animation="true">
-              				<div>
+              				<a href="/header/package/review">
                 				<img src="../resources/material-dashboard-html-v2.1.1/assets/img/27701-NWOWFK.jpg" class="img-fluid" width="300" height="300" alt="테스트1">
-              				</div>
+              				</a>
           				</div>
           				<div class="card-body">
               				<div class="card-actions">
@@ -61,7 +56,8 @@
       				</div>
     			</div>   
   			</div>
-  		</div>		
+  		</div>	
+  				
   		<nav aria-label="...">
 			<ul class="pagination">
 				<li class="page-item disabled">

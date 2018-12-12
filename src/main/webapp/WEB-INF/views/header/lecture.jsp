@@ -15,11 +15,13 @@
 				<div class="card">
 					<div class="card-body ">																	
 						<div class="video">	<!-- 동영상 안에 이미지 넣기 -->	
-						<video  width="400"loop preload="none"> <!-- 동영상 저절로 움직이게끔 -->  							  						
-  							<source src="../resources/material-dashboard-html-v2.1.1/Video/Squeeze.mp4" type="video/mp4">
-  							<source src="../resources/material-dashboard-html-v2.1.1/Video/Squeeze.webm" type="video/webm">						
-							 <div class="card-title"> 동영상 타이틀</div>
+						<a href="/header/package/lecture">
+						<video  width="400"loop preload="none"> <!-- 동영상 저절로 움직이게끔 -->  							  						 							
+  								<source src="../resources/material-dashboard-html-v2.1.1/Video/Squeeze.mp4" type="video/mp4">
+  								<source src="../resources/material-dashboard-html-v2.1.1/Video/Squeeze.webm" type="video/webm">						
+								<div class="card-title"> 동영상 타이틀</div>
 						</video>
+						</a>
 						</div>
 							<div class="stats ml-auto">
 								<i class="material-icons">favorite</i> 342 &#xB7; <i

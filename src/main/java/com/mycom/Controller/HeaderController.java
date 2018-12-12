@@ -41,30 +41,28 @@ public class HeaderController {
 	return "header/customerFacing";
 	}
 	
+	/** 상품후기 상세내역*/
+	@RequestMapping(value = "header/package/merchandise",  method = RequestMethod.GET)
+	public String merchandisepackagemethod(Model model) {
+	return "header/package/merchandise";
+	}
 	
+	/** 매거진 상세내역*/
+	@RequestMapping(value = "header/package/magazine",  method = RequestMethod.GET)
+	public String magazinepackagemethod(Model model) {
+	return "header/package/magazine";
+	}
 	
+	/** 상품후기 상세내역*/
+	@RequestMapping(value = "header/package/review",  method = RequestMethod.GET)
+	public String reviewpackagemethod(Model model) {
+	return "header/package/review";
+	}
 	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
+	/** 취미 동영상강의 상세내역*/
+	@RequestMapping(value = "header/package/lecture",  method = RequestMethod.GET)
+	public String lecturepackagemethod(Model model) {
+	return "header/package/lecture";
+	}
+			
 }

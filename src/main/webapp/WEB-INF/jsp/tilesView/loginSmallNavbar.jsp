@@ -59,8 +59,6 @@
                   <a class="dropdown-item" href="/users/coupon_notice">쿠폰 함</a>                 
                   <div class="dropdown-divider"></div>
                   <a class="dropdown-item" href="users/user/logout" data-toggle="modal" data-target="#exampleModal">로그아웃</a>
-                  <div class="dropdown-divider"></div>
-                  <a class="dropdown-item" href="loginSmall">임시 로그인 페이지</a> 
                 </div>
               	</li>
 			</ul>          
@@ -68,6 +66,4 @@
     	</div>
 	</nav>
 </body>
-
-
 </html>

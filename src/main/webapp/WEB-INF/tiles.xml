@@ -3,42 +3,47 @@
   
 <tiles-definitions>    
  
- 	<!-- 로그인 안 한 메인 페이지 -->
- 	<!-- <definition name="base.definition" template="/WEB-INF/jsp/tileLayout/baseLayout.jsp">    
-     	<put-attribute name="header" value="/WEB-INF/jsp/tilesView/header.jsp" />메뉴      
-    	<put-attribute name="Navbar" value="/WEB-INF/jsp/tilesView/Navbar.jsp" />헤더    
-    	<put-attribute name="body" value="" /> 바디       
-    	<put-attribute name="footer" value="/WEB-INF/jsp/tilesView/footer.jsp" />  푸터/꼬릿말 
-	</definition> 
-  -->
- 
- 
-  <!-- 로그인 한 레이아웃// 메인 jsp -->  
-	<definition name="base.definition" template="/WEB-INF/jsp/tileLayout/baseLayout.jsp">    
+ 	<!-- 로그인 한 메인 페이지 -->									
+	<definition name="login.definition" template="/WEB-INF/jsp/tileLayout/loginSmallLayout.jsp">    
      	<put-attribute name="header" value="/WEB-INF/jsp/tilesView/header.jsp" /><!-- 메뉴 -->      
     	<put-attribute name="Navbar" value="/WEB-INF/jsp/tilesView/Navbar.jsp" /><!-- 헤더 -->    
     	<put-attribute name="body" value="" /> <!-- 바디 -->       
     	<put-attribute name="footer" value="/WEB-INF/jsp/tilesView/footer.jsp" />  <!-- 푸터/꼬릿말 --> 
+	</definition> 
+ 
+  <!-- 로그인 안한 레이아웃// 메인 jsp -->  
+	<definition name="base.definition" template="/WEB-INF/jsp/tileLayout/baseLayout.jsp">    
+     	<put-attribute name="header" value="/WEB-INF/jsp/tilesView/header.jsp" />
+    	<put-attribute name="Navbar" value="/WEB-INF/jsp/tilesView/Navbar.jsp" />
+    	<put-attribute name="body" value="" />       
+    	<put-attribute name="footer" value="/WEB-INF/jsp/tilesView/footer.jsp" />   
 	</definition> 
 	
 	
 	  <!-- 사용자 //  Navbar.jsp-->  
 	<definition name="Navbar.users" template="/WEB-INF/jsp/tileLayout/usersLayout.jsp">    
-     	<put-attribute name="header" value="/WEB-INF/jsp/tilesView/header.jsp" /><!-- 메뉴 -->      
-    	<put-attribute name="Navbar" value="/WEB-INF/jsp/tilesView/Navbar.jsp" /><!-- 헤더 -->    
-    	<put-attribute name="body" value="" /> <!-- 바디 -->       
-    	<put-attribute name="footer" value="/WEB-INF/jsp/tilesView/footer.jsp" />  <!-- 푸터/꼬릿말 --> 
+     	<put-attribute name="header" value="/WEB-INF/jsp/tilesView/header.jsp" />
+    	<put-attribute name="Navbar" value="/WEB-INF/jsp/tilesView/Navbar.jsp" />
+    	<put-attribute name="body" value="" />       
+    	<put-attribute name="footer" value="/WEB-INF/jsp/tilesView/footer.jsp" />  
 	</definition>
 	
-	<!-- 사용자 //  Navbar.jsp-->  
+	<!-- 사용자 //  Header.jsp-->  
 	<definition name="Header.users" template="/WEB-INF/jsp/tileLayout/HeaderLayout.jsp">    
-     	<put-attribute name="header" value="/WEB-INF/jsp/tilesView/header.jsp" /><!-- 메뉴 -->      
-    	<put-attribute name="Navbar" value="/WEB-INF/jsp/tilesView/Navbar.jsp" /><!-- 헤더 -->    
-    	<put-attribute name="body" value="" /> <!-- 바디 -->       
-    	<put-attribute name="footer" value="/WEB-INF/jsp/tilesView/footer.jsp" />  <!-- 푸터/꼬릿말 --> 
+     	<put-attribute name="header" value="/WEB-INF/jsp/tilesView/header.jsp" />  
+    	<put-attribute name="Navbar" value="/WEB-INF/jsp/tilesView/Navbar.jsp" />
+    	<put-attribute name="body" value="" />   
+    	<put-attribute name="footer" value="/WEB-INF/jsp/tilesView/footer.jsp" /> 
 	</definition>
-	     
 	
+	<!-- 사용자 // HeaderPackage.jsp -->
+	<definition name="HeaderPackage.users" template="/WEB-INF/jsp/tileLayout/headerpackageLayout.jsp">    
+     	<put-attribute name="header" value="/WEB-INF/jsp/tilesView/header.jsp" />  
+    	<put-attribute name="Navbar" value="/WEB-INF/jsp/tilesView/Navbar.jsp" />
+    	<put-attribute name="body" value="" />   
+    	<put-attribute name="footer" value="/WEB-INF/jsp/tilesView/footer.jsp" /> 
+	</definition>
+	     	 
 <!-- ==================================================================================================== -->
   
   	<!-- 예시) 그 레이아웃을  name = "여기에 넣기" // put-attribute중에서 사용할 name넣기  -->    
@@ -47,32 +52,31 @@
     </definition> 
     -->
  	
- 	<!-- 로그인 안 한 페이지 -->
- 	<!-- <definition name="small" extends="base.definition">      
-    	<put-attribute name="body" value="/WEB-INF/views/small.jsp" />
-    </definition>  -->
+ 	<!-- 로그인 한 메인 페이지 -->
+ 	<definition name="loginSmall" extends="login.definition">      
+    	<put-attribute name="body" value="/WEB-INF/views/loginSmall.jsp" />
+    </definition>  
  
- 
- 
- 	<!--로그인 한 메인 페이지 -->
+ 	<!--로그인 안한 메인 페이지 -->
   	<definition name="small" extends="base.definition">      
     	<put-attribute name="body" value="/WEB-INF/views/small.jsp" />
     </definition> 
-  
-  
-   <!-- 유저 정보 (로그인 했을 경우)-->
+   
+   <!-- 유저 정보 -->
 	<definition name="users/*" extends="Navbar.users">      
     	<put-attribute name="body" value="/WEB-INF/views/users/{1}.jsp" />
     </definition>
    
      
-    <!-- 헤더 영역 (로그인 했을 경우)-->	
-		
-	
+    <!-- 헤더 영역 -->			
  	<definition name="header/*" extends="Header.users">      
     	<put-attribute name="body" value="/WEB-INF/views/header/{1}.jsp" />
     </definition>
     
+    <!-- 헤더 패키지 영역 -->
+     <definition name="header/*/*" extends="HeaderPackage.users">      
+    	<put-attribute name="body" value="/WEB-INF/views/header/{1}/{2}.jsp" />
+    </definition>
     
  </tiles-definitions>
 

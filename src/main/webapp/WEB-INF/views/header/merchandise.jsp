@@ -7,7 +7,6 @@
 </head>
 
 <body>
-	<div class="card">
 		<ul class="nav nav-pills nav-pills-icons" role="tablist">
 			<!--
         		color-classes: "nav-pills-primary", "nav-pills-info", "nav-pills-success", "nav-pills-warning","nav-pills-danger"
@@ -33,7 +32,7 @@
 				<div class="card-body">
 					<div class="row text-center text-lg-left">							
  						<div class="col-lg-3 col-md-4 col-xs-6">
-          					<a href="#" class="d-block mb-4 h-100">
+          					<a href="/header/package/merchandise" class="d-block mb-4 h-100">
             					<img class="img-fluid img-thumbnail" src="../resources/material-dashboard-html-v2.1.1/assets/img/Mainimg/12156-NNYXF9.jpg" alt="">
           					</a>
         				</div>
@@ -245,6 +244,5 @@
 				</li>
 			</ul>
 		</nav><!-- //페이징 영역 -->
-	</div>
 </body>
 </html>
