@@ -4,13 +4,14 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html lang="en" class="perfect-scrollbar-on">
 <head>
-<!-- <link rel="icon" type="image/png" href="../resources/material-dashboard-html-v2.1.1/assets/img/Mainimg/boho_style.PNG"> -->
-<!-- 로그인 한 메인 jspf -->
+<link rel="icon" type="image/png" href="../resources/material-dashboard-html-v2.1.1/assets/img/Mainimg/boho_style.PNG">
+<!-- 메인 jspf -->
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Small, but definite happiness</title>
- <%@ include file="/WEB-INF/include/include-users.jspf"%>
+ <%@ include file="/WEB-INF/include/include-header.jspf"%>
 </head>
-<body>	
+<body>
+	
 	<div class="wrapper">
 		<div style= "overflow:auto;"> <!-- style= "overflow:auto;"  상단 스크롤바--> 
 			<!-- header영역 -->			
@@ -18,10 +19,13 @@
     		<!-- //header영역 -->	
     
    		<div class="main-panel ps-container ps-theme-default">
+    		
     		<!-- Navbar영역 -->
+    		 	
     		<div class="page-row page-row-expanded">	
-    			<tiles:insertAttribute name="Navbar" />	
-    		</div>
+    			<tiles:insertAttribute name="loginNavbar" />	
+    		</div> 
+    		
     		<!-- //Navbar영역 -->
     		
      		<!-- End Navbar/ body영역 -->	

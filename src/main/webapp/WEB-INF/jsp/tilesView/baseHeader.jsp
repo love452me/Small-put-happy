@@ -49,6 +49,19 @@
               <p>취미 동영상 강의</p>
             </a>
           </li>
+          <div class="dropdown-divider"></div>
+		  <li class="nav-item ">
+            <a class="nav-link" href="/#" title="동영상 강의">
+              <i class="material-icons">ondemand_video</i>
+              <p>로그인</p>
+            </a>
+          </li>
+         <li class="nav-item ">
+            <a class="nav-link" href="/#" title="동영상 강의">
+              <i class="material-icons">ondemand_video</i>
+              <p>회원가입하기</p>
+            </a>
+          </li>
         </ul>        
 		
 		<!-- Navbar 영역 -->	

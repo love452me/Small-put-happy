@@ -1,20 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 2.0//EN" "http://tiles.apache.org/dtds/tiles-config_2_0.dtd">  
   
+  
 <tiles-definitions>    
  
- 	<!-- 로그인 한 메인 페이지 -->									
-	<definition name="login.definition" template="/WEB-INF/jsp/tileLayout/loginSmallLayout.jsp">    
-     	<put-attribute name="header" value="/WEB-INF/jsp/tilesView/header.jsp" /><!-- 메뉴 -->      
+ 	<!-- 2. 로그인 안한 메인 페이지 -->									
+	<definition name="base.definition" template="/WEB-INF/jsp/tileLayout/baseLayout.jsp">    
+     	<put-attribute name="header" value="/WEB-INF/jsp/tilesView/baseHeader.jsp" /><!-- 메뉴 -->      
     	<put-attribute name="Navbar" value="/WEB-INF/jsp/tilesView/Navbar.jsp" /><!-- 헤더 -->    
     	<put-attribute name="body" value="" /> <!-- 바디 -->       
     	<put-attribute name="footer" value="/WEB-INF/jsp/tilesView/footer.jsp" />  <!-- 푸터/꼬릿말 --> 
 	</definition> 
  
-  <!-- 로그인 안한 레이아웃// 메인 jsp -->  
-	<definition name="base.definition" template="/WEB-INF/jsp/tileLayout/baseLayout.jsp">    
+  <!-- 로그인 한 레이아웃// 1.메인 jsp -->  
+	<definition name="login.definition" template="/WEB-INF/jsp/tileLayout/loginSmallLayout.jsp">        				
      	<put-attribute name="header" value="/WEB-INF/jsp/tilesView/header.jsp" />
-    	<put-attribute name="Navbar" value="/WEB-INF/jsp/tilesView/Navbar.jsp" />
+    	<put-attribute name="loginNavbar" value="/WEB-INF/jsp/tilesView/loginSmallNavbar.jsp" />
     	<put-attribute name="body" value="" />       
     	<put-attribute name="footer" value="/WEB-INF/jsp/tilesView/footer.jsp" />   
 	</definition> 
@@ -54,7 +55,7 @@
  	
  	<!-- 로그인 한 메인 페이지 -->
  	<definition name="loginSmall" extends="login.definition">      
-    	<put-attribute name="body" value="/WEB-INF/views/loginSmall.jsp" />
+    	<put-attribute name="body" value="/WEB-INF/views/loginSmall.jsp"/>
     </definition>  
  
  	<!--로그인 안한 메인 페이지 -->
@@ -62,6 +63,12 @@
     	<put-attribute name="body" value="/WEB-INF/views/small.jsp" />
     </definition> 
    
+   <!-- 로그인 폼 페이지 -->
+   <!-- 
+   <definition name="small" extends="base.definition">      
+    	<put-attribute name="body" value="/WEB-INF/views/small.jsp" />
+    </definition> 
+    -->
    <!-- 유저 정보 -->
 	<definition name="users/*" extends="Navbar.users">      
     	<put-attribute name="body" value="/WEB-INF/views/users/{1}.jsp" />
@@ -94,13 +101,10 @@
  2번의 매핑은 말그대로 로그인을 제외한 모든루트에 매핑할때 가능한 구조
   ex) /community/community 매핑이 들어올경우 /WEB-INF/jsp/community/community.jsp
  로 치환시킵니다 물론 body의 매핑과 파일명을 맞춰야한다.
-
 extends = 사용하고자 하는, 적용하고자 하는 "tileslayout"의 이름을 기입하는 것
-
 여러가지로 적용하고 싶으면 
 ex) 
     <definition name=".*" extends=".main">
   		<put-attribute name="body" value="/WEB-INF/views/{1}.jsp" />
 	</definition>
-
 -->

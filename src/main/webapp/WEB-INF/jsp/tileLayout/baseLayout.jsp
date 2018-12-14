@@ -19,10 +19,13 @@
     		<!-- //header영역 -->	
     
    		<div class="main-panel ps-container ps-theme-default">
+    		
     		<!-- Navbar영역 -->
+    		 	
     		<div class="page-row page-row-expanded">	
     			<tiles:insertAttribute name="Navbar" />	
-    		</div>
+    		</div> 
+    		
     		<!-- //Navbar영역 -->
     		
      		<!-- End Navbar/ body영역 -->	
