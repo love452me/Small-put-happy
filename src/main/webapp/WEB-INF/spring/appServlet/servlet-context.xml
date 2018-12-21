@@ -21,6 +21,7 @@
 		<beans:property name="suffix" value=".jsp" />
 	</beans:bean>
 
+	 <!-- name="order" value="1" / 우선순위 1로 정함으로써, 보통은 컨트롤러에서 ViewResolver를 이용해 jsp view를 결정해버리는데 그 우선권을 가로챈 형태  -->
 	<beans:bean id="viewResolver" class="org.springframework.web.servlet.view.UrlBasedViewResolver">    
    		<beans:property name="viewClass" value="org.springframework.web.servlet.view.tiles2.TilesView"/>       
     	<beans:property name="order" value="1"/>        

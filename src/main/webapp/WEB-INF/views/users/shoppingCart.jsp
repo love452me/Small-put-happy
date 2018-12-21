@@ -1,5 +1,4 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8"
-    pageEncoding="UTF-8"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
@@ -44,9 +43,7 @@
 							</td>
 							<td>
 								<div class="img-container">
-									<img
-										src="../resources/material-dashboard-html-v2.1.1/assets/img/27701-NWOWFK.jpg"
-										class="img-thumbnail" width="100" height="100">
+									<img src="../resources/material-dashboard-html-v2.1.1/assets/img/27701-NWOWFK.jpg" class="img-thumbnail" width="100" height="100">
 								</div>
 							</td>
 							<td>겨울에 다가오는 아름다운 이미지</td>

@@ -43,14 +43,7 @@
               <p>상품 후기</p>
             </a>
           </li>
-          <li class="nav-item ">
-            <a class="nav-link" href="/header/lecture" title="동영상 강의">
-              <i class="material-icons">ondemand_video</i>
-              <p>취미 동영상 강의</p>
-            </a>
-          </li>
-        </ul>        
-		
+        </ul>        		
 		<!-- Navbar 영역 -->	
 			 <form class="navbar-form"></form>		
 		<ul class="navbar-nav nav-mobile-menu"></ul> 

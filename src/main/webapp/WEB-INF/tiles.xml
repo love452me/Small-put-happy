@@ -24,27 +24,29 @@
 	  <!-- 사용자 //  Navbar.jsp-->  
 	<definition name="Navbar.users" template="/WEB-INF/jsp/tileLayout/usersLayout.jsp">    
      	<put-attribute name="header" value="/WEB-INF/jsp/tilesView/header.jsp" />
-    	<put-attribute name="Navbar" value="/WEB-INF/jsp/tilesView/Navbar.jsp" />
+    	<put-attribute name="Navbar" value="/WEB-INF/jsp/tilesView/loginSmallNavbar.jsp" />
     	<put-attribute name="body" value="" />       
     	<put-attribute name="footer" value="/WEB-INF/jsp/tilesView/footer.jsp" />  
 	</definition>
 	
 	<!-- 사용자 //  Header.jsp-->  
 	<definition name="Header.users" template="/WEB-INF/jsp/tileLayout/HeaderLayout.jsp">    
-     	<put-attribute name="header" value="/WEB-INF/jsp/tilesView/header.jsp" />  
+     	<put-attribute name="header" value="/WEB-INF/jsp/tilesView/baseHeader.jsp" />  
     	<put-attribute name="Navbar" value="/WEB-INF/jsp/tilesView/Navbar.jsp" />
     	<put-attribute name="body" value="" />   
     	<put-attribute name="footer" value="/WEB-INF/jsp/tilesView/footer.jsp" /> 
 	</definition>
 	
 	<!-- 사용자 // HeaderPackage.jsp -->
+	
+	<!-- 
 	<definition name="HeaderPackage.users" template="/WEB-INF/jsp/tileLayout/headerpackageLayout.jsp">    
      	<put-attribute name="header" value="/WEB-INF/jsp/tilesView/header.jsp" />  
     	<put-attribute name="Navbar" value="/WEB-INF/jsp/tilesView/Navbar.jsp" />
     	<put-attribute name="body" value="" />   
     	<put-attribute name="footer" value="/WEB-INF/jsp/tilesView/footer.jsp" /> 
 	</definition>
-	     	 
+	 -->     	 
 <!-- ==================================================================================================== -->
   
   	<!-- 예시) 그 레이아웃을  name = "여기에 넣기" // put-attribute중에서 사용할 name넣기  -->    
@@ -55,7 +57,7 @@
  	
  	<!-- 로그인 한 메인 페이지 -->
  	<definition name="loginSmall" extends="login.definition">      
-    	<put-attribute name="body" value="/WEB-INF/views/loginSmall.jsp"/>
+    	<put-attribute name="body" value="/WEB-INF/views/loginSmall.jsp"/> 
     </definition>  
  
  	<!--로그인 안한 메인 페이지 -->
@@ -81,10 +83,11 @@
     </definition>
     
     <!-- 헤더 패키지 영역 -->
+    <!--  
      <definition name="header/*/*" extends="HeaderPackage.users">      
     	<put-attribute name="body" value="/WEB-INF/views/header/{1}/{2}.jsp" />
     </definition>
-    
+     -->
  </tiles-definitions>
 
 <!-- 

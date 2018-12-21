@@ -12,13 +12,6 @@ import org.springframework.web.bind.annotation.RequestMethod;
 
 public class UserController {
 
-	
-	/** 회원_멤버쉽*/
-	@RequestMapping(value = "users/membership",  method = RequestMethod.GET)
-	public String membershipmethod(Model model) {
-	return "users/membership";
-	}
-
 	/** 장 바구니*/
 	@RequestMapping(value = "users/shopping_cart",  method = RequestMethod.GET)
 	public String cartmethod(Model model) {
@@ -30,14 +23,6 @@ public class UserController {
 	public String couponmethod(Model model) {
 	return "users/couponNotice";
 	}
-	
-	/** 결제*/
-	@RequestMapping(value = "users/clearance",  method = RequestMethod.GET)
-	public String clearancemethod(Model model) {
-	return "users/clearance";
-	}
-	
-	/*===*/
 	
 	/** 로그아웃*/
 	@RequestMapping(value = "users/logout",  method = RequestMethod.GET)

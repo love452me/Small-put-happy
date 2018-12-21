@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.servlet.ModelAndView;
 
-import com.mycom.Service.SmallService;
+import com.mycom.Dao.HeaderDao;
 
 /**
  * 메인 콘트롤러/ 로그인 x
@@ -16,15 +16,14 @@ import com.mycom.Service.SmallService;
 @Controller
 public class HomeController {
 	
-	
 	@Autowired
-	SmallService smallservice;
+	HeaderDao headerdao;
 	
 	/** 메인 화면-> 로그인 안한 페이지*/
 	@RequestMapping(value = "/",  method = RequestMethod.GET)
 	public String smallmethod(Model model, ModelAndView mv) {
-		//List<Small> small = smallservice.getSmallList();
-		//model.addAttribute("small", small);
+	
+		
 	return "small";
 	}
 	

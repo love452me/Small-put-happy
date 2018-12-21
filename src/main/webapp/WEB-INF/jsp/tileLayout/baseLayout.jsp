@@ -10,8 +10,7 @@
 <title>Small, but definite happiness</title>
  <%@ include file="/WEB-INF/include/include-header.jspf"%>
 </head>
-<body>
-	
+<body>	
 	<div class="wrapper">
 		<div style= "overflow:auto;"> <!-- style= "overflow:auto;"  상단 스크롤바--> 
 			<!-- header영역 -->			
@@ -24,8 +23,7 @@
     		 	
     		<div class="page-row page-row-expanded">	
     			<tiles:insertAttribute name="Navbar" />	
-    		</div> 
-    		
+    		</div>     		
     		<!-- //Navbar영역 -->
     		
      		<!-- End Navbar/ body영역 -->	
@@ -37,6 +35,7 @@
     		<!-- footer 영역 -->
     			<%-- <tiles:insertAttribute name="footer" /> --%>
     		<!-- //footer 영역 --> 	
+				<!-- 스크롤이 없어서, 생성한 기능 -->
 				<div class="ps-scrollbar-y-rail" style="top: 0px; right: 0px;">
      				<div class="ps-scrollbar-y" tabindex="0" style="top: 0px; height: 0px;"></div>
      			</div>

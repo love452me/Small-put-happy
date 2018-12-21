@@ -1,68 +1,47 @@
 package com.mycom.Controller;
 
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
+
+import com.mycom.Dao.HeaderDao;
+import com.mycom.pojo.Magazine;
+import com.mycom.pojo.Paging;
 
 /** 헤더 컨트롤러*/
 
 @Controller
 public class HeaderController {
 
+	@Autowired
+	HeaderDao headerdao;
 	
 	/** 상품*/
 	@RequestMapping(value = "header/merchandise",  method = RequestMethod.GET)
-	public String merchandisemethod(Model model) {
-	return "header/merchandise";
+	public String merchandisemethod(Model model) {	
+		//List<Merchandise> merchandise = headerdao.getMerchandise();
+		//model.addAttribute("merchandise",merchandise);
+		return "header/merchandise";
 	}
 	
 	/** 취미 매거진*/
 	@RequestMapping(value = "header/magazine",  method = RequestMethod.GET)
-	public String magazinemethod(Model model) {
-	return "header/magazine";
-	}
+	public String magazinemethod(Model model, Paging paging) {		 /*paging*/
+		List<Magazine> magazine = headerdao.getMagazine(paging);
+		model.addAttribute("magazine", magazine);	
+		model.addAttribute("paging", paging);
+		return "header/magazineTest";	
+	}	
 	
-	/** 상품 후기*/
+	/** 상품후기*/
 	@RequestMapping(value = "header/review",  method = RequestMethod.GET)
 	public String reviewmethod(Model model) {
+	//List<Review> review= headerdao.getReview();
+	//model.addAttribute("review",review);	
 	return "header/review";
 	}
-	
-	/** 취미 동영상 강의*/
-	@RequestMapping(value = "header/lecture",  method = RequestMethod.GET)
-	public String lecturemethod(Model model) {
-	return "header/lecture";
-	}
-	
-	/** 고객 센터*/
-	@RequestMapping(value = "header/customer-facing",  method = RequestMethod.GET)
-	public String facingmethod(Model model) {
-	return "header/customerFacing";
-	}
-	
-	/** 상품후기 상세내역*/
-	@RequestMapping(value = "header/package/merchandise",  method = RequestMethod.GET)
-	public String merchandisepackagemethod(Model model) {
-	return "header/package/merchandise";
-	}
-	
-	/** 매거진 상세내역*/
-	@RequestMapping(value = "header/package/magazine",  method = RequestMethod.GET)
-	public String magazinepackagemethod(Model model) {
-	return "header/package/magazine";
-	}
-	
-	/** 상품후기 상세내역*/
-	@RequestMapping(value = "header/package/review",  method = RequestMethod.GET)
-	public String reviewpackagemethod(Model model) {
-	return "header/package/review";
-	}
-	
-	/** 취미 동영상강의 상세내역*/
-	@RequestMapping(value = "header/package/lecture",  method = RequestMethod.GET)
-	public String lecturepackagemethod(Model model) {
-	return "header/package/lecture";
-	}
-			
 }
